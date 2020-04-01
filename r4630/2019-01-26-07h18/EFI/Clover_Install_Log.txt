@@ -1,0 +1,44 @@
+
+Clover EFI installer log - Sat Jan 26 07:17:53 EST 2019
+Installer version: v2.4k r4630 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:          Apple_CoreStorage Macintosh HD            249.4 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:                 Apple_Boot                         650.0 MB   disk0s4
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS Macintosh HD           +249.0 GB   disk1
+                                 Logical Volume on disk0s2
+                                 4A2DF5CE-0944-480F-B99F-3C67EAA33BCE
+                                 Unencrypted
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Hackintosh SSD          499.2 GB   disk2s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk2s3
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Hackintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Hackintosh SSD/EFI-Backups/r4813/2019-01-26-07h17/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Hackintosh SSD
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Hackintosh SSD
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/Volumes/Hackintosh SSD'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
